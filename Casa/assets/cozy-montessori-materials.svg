@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 700" role="img" aria-labelledby="title desc">
+  <title id="title">Cozy Montessori classroom materials</title>
+  <desc id="desc">A warm illustrated shelf with Montessori learning materials, plants, books, and wooden objects.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9ec"/>
+      <stop offset="0.5" stop-color="#eef4e8"/>
+      <stop offset="1" stop-color="#f9e6d9"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d69b62"/>
+      <stop offset="1" stop-color="#a9693f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#17302f" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="paper" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 8h16M8 0v16" stroke="#17302f" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="920" height="700" rx="34" fill="url(#wall)"/>
+  <rect width="920" height="700" rx="34" fill="url(#paper)"/>
+
+  <circle cx="140" cy="120" r="72" fill="#dcebf2"/>
+  <circle cx="793" cy="128" r="92" fill="#dce8d6"/>
+  <circle cx="755" cy="580" r="120" fill="#f3c96f" opacity="0.28"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="92" y="176" width="736" height="384" rx="24" fill="#fffdf7"/>
+    <rect x="122" y="232" width="676" height="22" rx="11" fill="url(#wood)"/>
+    <rect x="122" y="384" width="676" height="22" rx="11" fill="url(#wood)"/>
+    <rect x="122" y="536" width="676" height="22" rx="11" fill="url(#wood)"/>
+  </g>
+
+  <g>
+    <rect x="160" y="106" width="144" height="108" rx="12" fill="#ffffff" stroke="#d9c9b1" stroke-width="4"/>
+    <path d="M214 184c-20-18-25-50-2-73 28 20 37 52 16 73z" fill="#1f514a" opacity="0.86"/>
+    <path d="M238 184c-2-42 20-70 56-84 7 37-17 74-56 84z" fill="#b75f41" opacity="0.78"/>
+  </g>
+
+  <g transform="translate(154 286)">
+    <rect x="0" y="52" width="164" height="36" rx="8" fill="#1f514a"/>
+    <rect x="18" y="24" width="128" height="36" rx="8" fill="#f3c96f"/>
+    <rect x="38" y="0" width="88" height="32" rx="8" fill="#b75f41"/>
+    <circle cx="82" cy="18" r="5" fill="#fff9ec"/>
+  </g>
+
+  <g transform="translate(384 268)">
+    <path d="M36 96V20h128v76" fill="none" stroke="#1f514a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="36" cy="36" r="16" fill="#dcebf2"/>
+    <circle cx="68" cy="54" r="16" fill="#f3c96f"/>
+    <circle cx="100" cy="38" r="16" fill="#b75f41"/>
+    <circle cx="132" cy="58" r="16" fill="#dce8d6"/>
+    <circle cx="164" cy="36" r="16" fill="#1f514a"/>
+  </g>
+
+  <g transform="translate(624 272)">
+    <rect x="0" y="8" width="36" height="104" rx="8" fill="#b75f41"/>
+    <rect x="46" y="28" width="36" height="84" rx="8" fill="#dcebf2"/>
+    <rect x="92" y="0" width="36" height="112" rx="8" fill="#dce8d6"/>
+    <path d="M0 124h144" stroke="#a9693f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(168 430)">
+    <rect x="0" y="50" width="54" height="54" rx="10" fill="#dcebf2"/>
+    <rect x="64" y="26" width="54" height="78" rx="10" fill="#f3c96f"/>
+    <rect x="128" y="0" width="54" height="104" rx="10" fill="#b75f41"/>
+    <path d="M-12 116h208" stroke="#a9693f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(432 430)">
+    <ellipse cx="60" cy="102" rx="54" ry="14" fill="#17302f" opacity="0.12"/>
+    <rect x="18" y="48" width="84" height="82" rx="16" fill="#fff9ec" stroke="#d9c9b1" stroke-width="5"/>
+    <path d="M60 66c-6-36 2-64 30-90" stroke="#1f514a" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M58 74c-38-14-56-40-58-78 38 8 58 32 58 78z" fill="#1f514a"/>
+    <path d="M70 76c12-38 38-58 78-60-8 38-34 58-78 60z" fill="#dce8d6"/>
+  </g>
+
+  <g transform="translate(634 430)">
+    <rect x="0" y="0" width="150" height="94" rx="16" fill="#fff9ec" stroke="#d9c9b1" stroke-width="5"/>
+    <path d="M28 28h94M28 48h74M28 68h98" stroke="#1f514a" stroke-opacity="0.58" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
